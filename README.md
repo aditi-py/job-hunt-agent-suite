@@ -28,33 +28,39 @@ This is not a product. It is not a startup. It is an engineer solving her own pr
 
 ## The 3 Agents
 
-### Agent 1: Cold Email Bot (US market)
+### Agent 1: US Outreach Pipeline
 
-Targets US-based roles via job sites. Every morning it:
+[github.com/aditi-py/us-job-outreach-pipeline](https://github.com/aditi-py/us-job-outreach-pipeline)
+
+Targets US-based roles via job sites. Runs as a 3-phase pipeline every morning:
 
 - Scrapes 30+ fresh job listings from a job site
-- Finds relevant employees at each company via social media
-- Extracts their contact emails using an AI tool
+- Finds up to 5 relevant employees at each company via social media
+- Finds their work emails via an email finder tool
 - Sends a personalised cold email with my resume attached
 - Automatically follows up after 3 days if there is no reply
 
-### Agent 2: International Cold Email Bot
+### Agent 2: International Job Outreach Pipeline
 
-Same concept, built for global reach. It:
+[github.com/aditi-py/international-job-outreach-pipeline](https://github.com/aditi-py/international-job-outreach-pipeline)
+
+Built for global reach across 6 countries. It:
 
 - Scrapes job listings worldwide from social media and job platforms
-- Discovers hiring managers via social media profiles
+- Finds hiring contacts via social media profiles
 - Enriches contact data using an email finder API
 - Sends personalised outreach with my resume
 - Runs a 10-day follow-up loop over IMAP, checking for replies at each step
 
-### Agent 3: Social Media Outreach Bot
+### Agent 3: International Social Outreach Bot
+
+[github.com/aditi-py/linkedin-international-outreach-bot](https://github.com/aditi-py/linkedin-international-outreach-bot)
 
 Focuses on building connections rather than cold email. It:
 
 - Picks 2 target companies per day
-- Finds data professionals and recruiters at those companies
-- Sends connection requests via social media
+- Finds 7 to 8 data professionals at each company
+- Sends personalised connection requests
 - Tracks everything in a local SQLite database
 - Detects when a connection is accepted
 - Sends a personalised DM immediately after acceptance
@@ -66,9 +72,9 @@ Focuses on building connections rather than cold email. It:
 | Metric | Value |
 |---|---|
 | Cold emails sent per day | ~40 |
-| Markets covered | Global |
+| Countries covered | 6+ |
 | Hours saved per day | ~10 |
-| Extra paid subscriptions | Only Apollo.io |
+| Paid subscriptions needed | Only Apollo.io |
 | Agents running | 3 |
 
 ---
@@ -99,9 +105,9 @@ All agents are rate-limited and deduplicated to stay safe and respectful of plat
 
 ## Code availability
 
-The actual code for these agents is private for now.
+The actual code for each agent lives in the linked repos above.
 
-If you are a recruiter, hiring manager, or fellow engineer who wants to see the implementation, feel free to reach out directly. I am happy to walk through the architecture or share access on request.
+If you are a recruiter, hiring manager, or fellow engineer who wants to talk through the implementation, feel free to reach out directly.
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/aditi-py) or open a GitHub issue here.
 
