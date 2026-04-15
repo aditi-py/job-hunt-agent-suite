@@ -109,10 +109,7 @@ You can find me on [LinkedIn](https://www.linkedin.com/in/aditi-py) or open a Gi
 
 ## License
 
-This repository and its contents are shared for portfolio and educational purposes only.
-
-All Rights Reserved. No part of this codebase or its documentation may be copied, reproduced, modified, or distributed without explicit written permission from the author.
-
+This project was built with AI assistance. The system architecture, design decisions, documentation, and overall structure reflect original human creative work and are shared for portfolio purposes only. Please do not replicate or redistribute without permission.
 ---
 
 *Built by Aditi | Python, Playwright, Claude, Gmail API*
